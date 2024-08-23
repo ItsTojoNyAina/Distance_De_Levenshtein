@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Distance_de_Levenshtein")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a11632fc1e680a0541e09e9ef33f256f52d21176")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42d98cb712592ec53b9f84d0c5d520f807476496")]
 [assembly: System.Reflection.AssemblyProductAttribute("Distance_de_Levenshtein")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Distance_de_Levenshtein")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

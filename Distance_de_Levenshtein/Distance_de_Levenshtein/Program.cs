@@ -7,16 +7,15 @@ class Program
 {
     static void Main()
     {
-        // Chemin vers le fichier texte contenant les mots en français
         string filePath = "liste_francais.txt";
 
-        // Charger le dictionnaire dans un HashSet pour des recherches rapides
+      
         HashSet<string> dictionary = LoadWords(filePath);
 
         Console.WriteLine("Veuillez entrer un mot : ");
         string inputWord = Console.ReadLine();
 
-        // Vérifier si le mot existe dans le dictionnaire
+        //3. Vérifier si le mot existe dans le dictionnaire
         if (dictionary.Contains(inputWord.ToLower()))
         {
             Console.WriteLine("Le mot existe dans le dictionnaire.");
@@ -48,9 +47,10 @@ class Program
         AnalyzeTextFile(inputFilePath, outputFilePath, dictionary);
 
         Console.WriteLine("Analyse terminée. Consultez le fichier texte.err pour les résultats.");
+        Console.ReadKey();
     }
 
-    // Charger les mots du fichier texte dans un HashSet pour des recherches rapides
+    //2. Chargement des mots dans une SD
     static HashSet<string> LoadWords(string filePath)
     {
         HashSet<string> words = new HashSet<string>();
@@ -59,7 +59,7 @@ class Program
         {
             foreach (var line in File.ReadLines(filePath))
             {
-                words.Add(line.Trim().ToLower()); // Ajouter en minuscules pour éviter les erreurs de casse
+                words.Add(line.Trim().ToLower()); 
             }
         }
         catch (Exception ex)
@@ -70,7 +70,7 @@ class Program
         return words;
     }
 
-    // Obtenir les mots les plus proches
+    // 4. Obtenir les mots les plus proches
     static List<string> GetClosestWords(string word, IEnumerable<string> dictionary, int maxDistance = 2)
     {
         List<string> closestWords = new List<string>();
@@ -112,7 +112,7 @@ class Program
         return costs[a.Length, b.Length];
     }
 
-    // Analyser le fichier texte et écrire les corrections
+    //5. Analyser le fichier texte et écrire les corrections
     static void AnalyzeTextFile(string inputFilePath, string outputFilePath, HashSet<string> dictionary)
     {
         try
