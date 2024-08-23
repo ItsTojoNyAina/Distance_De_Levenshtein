@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mickaël\\OneDrive\\Bureau\\c#_\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein.csproj": {}
+    "C:\\Users\\itsto\\source\\repos\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mickaël\\OneDrive\\Bureau\\c#_\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein.csproj": {
+    "C:\\Users\\itsto\\source\\repos\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mickaël\\OneDrive\\Bureau\\c#_\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein.csproj",
+        "projectUniqueName": "C:\\Users\\itsto\\source\\repos\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein.csproj",
         "projectName": "Distance_de_Levenshtein",
-        "projectPath": "C:\\Users\\Mickaël\\OneDrive\\Bureau\\c#_\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein.csproj",
-        "packagesPath": "C:\\Users\\Mickaël\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mickaël\\OneDrive\\Bureau\\c#_\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\obj\\",
+        "projectPath": "C:\\Users\\itsto\\source\\repos\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein.csproj",
+        "packagesPath": "C:\\Users\\itsto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\itsto\\source\\repos\\Distance_de_levenshtein\\Distance_de_Levenshtein\\Distance_de_Levenshtein\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mickaël\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\itsto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
